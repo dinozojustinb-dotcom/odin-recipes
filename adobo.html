@@ -3,51 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ADOBO</title>
+    <title>Pork Adobo — The Recipe Box</title>
+    <meta name="description" content="A step-by-step recipe for Filipino pork adobo, braised in soy sauce, vinegar, and garlic.">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 style="text-align: center;">Pork Adobo</h1>
-    <a href="index.html">Food Recipes</a>
-    <div class="image-container">
-    <img src="adobo.jpeg" alt="adobo">
-    </div>
-    <h2 style="text-align: center;">Description</h2>
-    <p>Pork Adobo is the quintessential Filipino comfort food, celebrated as the country’s unofficial national dish for its deeply savory, tangy, and subtly sweet flavor profile. The magic of this dish lies in its simple yet powerful braising liquid, made from a balanced blend of soy sauce, vinegar, plenty of crushed garlic, whole black peppercorns, and dried bay leaves. Marbled cuts of pork—most traditionally pork belly (liempo) or shoulder (kasim)—are simmered slowly in this marinade until the meat becomes incredibly tender, allowing the savory-sour notes to penetrate all the way to the bone while the pork fat renders beautifully into the sauce.</p>
-    <p>What truly elevates Pork Adobo is the cooking technique, which often involves searing the marinated meat in hot oil before or after simmering to create delicious, caramelized edges. As the liquid reduces, the rendered pork fat merges with the soy-vinegar mixture, creating a rich, glossy, and intensely savory sauce that is unmatched when spooned over warm, steamed white rice. Because vinegar acts as a natural preservative, Adobo is a dish that famously tastes even better the next day, as the flavors continue to meld and deepen over time.</p>
-    <ul>
-        <h3>Ingredients</h3>
-        <h3>The Meat and Marinade</h3>
-        <li>1 kg (2.2 lbs) Pork – Use marbled cuts like pork belly (liempo), pork shoulder (kasim), or a mix of belly and ribs, cut into 2-inch chunks.</li>
-        <li>1/2 cup Soy Sauce – Preferably Filipino brands like Silver Swan or Datu Puti for an authentic flavor profile</li>
-        <li>1/3 cup Cane Vinegar or Coconut Vinegar – Gives the dish its signature tangy baseline.</li>
-        <li>1 head Garlic – Separated into cloves, peeled, and thoroughly crushed. Adobo relies heavily on garlic.</li>
-        <li>1 tsp Whole Black Peppercorns (pamintang buo) – Slightly crushed to release their aromatic oils.</li>
-        <li>3 to 4 pieces Dried Bay Leaves (laurel) – Adds a subtle earthy depth.</li>
-        <h3>For Searing and Simmering</h3>
-        <li>1 to 2 tbsp Cooking Oil – For searing the marinated pork.</li>
-        <li>1 cup Water – To help simmer and tenderize the pork without burning the sauce.</li>
-        <li>1 to 2 tsp Brown Sugar (Optional) – To balance the salt and vinegar with a touch of sweetness.</li>
-        <h3>Optional Add-ins</h3>
-        <li>3 to 4 pieces Hard-Boiled Eggs – Shelled and added during the last few minutes of simmering to soak up the dark sauce.</li>
-        <li>2 medium Potatoes – Peeled, quartered, and fried before adding to the stew.</li>
-    </ul>
-    <ol>
-        <h3>Step-by-Step</h3>
-        <h3>Phase 1: Marinating (30 minutes to overnight)</h3>
-        <li>Combine ingredients: In a large bowl or zip-top bag, combine your pork chunks, soy sauce, crushed garlic, crushed peppercorns, and dried bay leaves.</li>
-        <li>Rest: Mix well to coat the meat evenly. Cover and let it marinate in the refrigerator for at least 30 minutes. For the deepest flavor, marinate it overnight. Do not add the vinegar yet.</li>
-        <h3>Phase 2: Searing the Pork (10 minutes)</h3>
-        <li>Separate meat and liquid: Remove the pork chunks from the marinade, shaking off excess liquid. Save the leftover marinade liquid and aromatics (garlic, bay leaves)—do not throw them away!</li>
-        <li>Sear the meat: Heat 1–2 tablespoons of cooking oil in a large pot over medium-high heat. Add the pork chunks in a single layer and sear for 3–5 minutes until the edges are nicely browned and caramelized.</li>
-        <h3>Phase 3: Braising and Simmering (40 minutes)</h3>
-        <li>Add marinade and water: Pour the reserved marinade liquid, garlic, peppercorns, and bay leaves into the pot with the seared pork. Add 1 cup of water.</li>
-        <li>Boil and simmer: Bring the mixture to a boil. Once boiling, lower the heat to medium-low, cover the pot, and simmer for 30 minutes, or until the pork is tender.</li>
-        <li>Add the vinegar (CRITICAL STEP): Pour in your vinegar. Do not stir the pot. Let the liquid come to a boil uncovered for 3–5 minutes. This allows the harsh, raw alcohol taste of the vinegar to evaporate, leaving a smooth, pleasant tang.</li>
-        <li>Balance the flavor: Stir the pot gently. If using brown sugar, mix it in now to round out the sharp salt-and-sour profile.</li>
-        <h3>Phase 4: Reducing the Sauce (5 minutes)</h3>
-        <li>Thicken the sauce: If you prefer a thick, rich, oily sauce, remove the lid and turn the heat up to medium. Let the sauce reduce and thicken for about 5 minutes until the rendered pork fat separates from the dark sauce. (If using hard-boiled eggs, drop them in now to coat them in the sauce).</li>
-        <p>Serve your Pork Adobo hot over a generous bed of steamed white rice.</p>
-    </ol>
+    <nav class="site-nav">
+        <a class="back-link" href="index.html">← The Recipe Box</a>
+    </nav>
+
+    <section class="recipe-hero">
+        <div class="polaroid">
+            <div class="tape"></div>
+            <img src="adobo.jpeg" alt="A pot of glossy pork adobo simmering in dark soy-vinegar sauce">
+        </div>
+        <div class="intro">
+            <span class="tab">Braised</span>
+            <h1>Pork Adobo</h1>
+            <p class="native-name">Adobong Baboy</p>
+            <div class="stamp-row">
+                <span class="stamp">⏱ 45 min active</span>
+                <span class="stamp">🕐 + marinate 30 min–overnight</span>
+                <span class="stamp">🍚 Serves 4–6</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="description">
+        <p>Pork Adobo is the quintessential Filipino comfort food, celebrated as the country's unofficial national dish for its deeply savory, tangy, and subtly sweet flavor profile. The magic of this dish lies in its simple yet powerful braising liquid, made from a balanced blend of soy sauce, vinegar, plenty of crushed garlic, whole black peppercorns, and dried bay leaves. Marbled cuts of pork — most traditionally pork belly (liempo) or shoulder (kasim) — are simmered slowly in this marinade until the meat becomes incredibly tender, letting the savory-sour notes reach all the way to the bone while the fat renders into the sauce.</p>
+        <p>What truly elevates this dish is the technique: searing the marinated meat in hot oil before or after simmering creates caramelized edges. As the liquid reduces, the rendered fat merges with the soy-vinegar mixture into a rich, glossy sauce that's unmatched spooned over warm rice. Because vinegar is a natural preservative, Adobo famously tastes even better the next day, once the flavors have had time to meld.</p>
+    </section>
+
+    <section class="recipe-body">
+        <div class="panel ingredients">
+            <h2>Ingredients</h2>
+
+            <div class="ing-group">
+                <h3>The Meat &amp; Marinade</h3>
+                <ul>
+                    <li><b>1 kg (2.2 lbs) pork</b> — marbled cuts like belly (liempo), shoulder (kasim), or a mix of belly and ribs, cut into 2-inch chunks</li>
+                    <li><b>1/2 cup soy sauce</b> — Filipino brands like Silver Swan or Datu Puti for the most authentic flavor</li>
+                    <li><b>1/3 cup cane or coconut vinegar</b> — gives the dish its signature tang</li>
+                    <li><b>1 head garlic</b> — cloves separated, peeled, and crushed</li>
+                    <li><b>1 tsp whole black peppercorns</b> — slightly crushed to release their oils</li>
+                    <li><b>3–4 dried bay leaves (laurel)</b> — adds a subtle earthy depth</li>
+                </ul>
+            </div>
+
+            <div class="ing-group">
+                <h3>For Searing &amp; Simmering</h3>
+                <ul>
+                    <li><b>1–2 tbsp cooking oil</b> — for searing the marinated pork</li>
+                    <li><b>1 cup water</b> — to help simmer and tenderize without burning the sauce</li>
+                    <li><b>1–2 tsp brown sugar</b> <i>(optional)</i> — balances the salt and vinegar</li>
+                </ul>
+            </div>
+
+            <div class="ing-group">
+                <h3>Optional Add-ins</h3>
+                <ul>
+                    <li><b>3–4 hard-boiled eggs</b> — shelled, added late to soak up the sauce</li>
+                    <li><b>2 medium potatoes</b> — peeled, quartered, and fried before adding</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="panel steps">
+            <h2>Method</h2>
+
+            <div class="phase">
+                <div class="phase-head">
+                    <h3>Marinating</h3>
+                    <span class="time">30 min – overnight</span>
+                </div>
+                <ol>
+                    <li>Combine the pork chunks, soy sauce, crushed garlic, crushed peppercorns, and bay leaves in a large bowl or zip-top bag.</li>
+                    <li>Mix well to coat the meat evenly. Cover and refrigerate for at least 30 minutes, or overnight for the deepest flavor. Do not add the vinegar yet.</li>
+                </ol>
+            </div>
+
+            <div class="phase">
+                <div class="phase-head">
+                    <h3>Searing the Pork</h3>
+                    <span class="time">10 min</span>
+                </div>
+                <ol>
+                    <li>Remove the pork from the marinade, shaking off excess liquid. Save the marinade liquid and aromatics — don't throw them away.</li>
+                    <li>Heat the oil in a large pot over medium-high heat. Sear the pork in a single layer for 3–5 minutes until the edges are browned and caramelized.</li>
+                </ol>
+            </div>
+
+            <div class="phase">
+                <div class="phase-head">
+                    <h3>Braising &amp; Simmering</h3>
+                    <span class="time">40 min</span>
+                </div>
+                <ol>
+                    <li>Pour the reserved marinade, garlic, peppercorns, and bay leaves into the pot with the seared pork. Add 1 cup of water.</li>
+                    <li>Bring to a boil, then lower the heat to medium-low, cover, and simmer for 30 minutes, or until the pork is tender.</li>
+                    <li><b>Add the vinegar (critical step):</b> pour it in and do not stir. Let it boil uncovered for 3–5 minutes so the raw alcohol taste evaporates, leaving a smooth tang.</li>
+                    <li>Stir the pot gently. If using brown sugar, mix it in now to round out the salt and sour notes.</li>
+                </ol>
+            </div>
+
+            <div class="phase">
+                <div class="phase-head">
+                    <h3>Reducing the Sauce</h3>
+                    <span class="time">5 min</span>
+                </div>
+                <ol>
+                    <li>For a thick, glossy sauce, remove the lid and raise the heat to medium. Let it reduce for about 5 minutes until the fat separates from the dark sauce. If using hard-boiled eggs, drop them in now to coat.</li>
+                </ol>
+            </div>
+
+            <p class="serve-note"><b>To serve:</b> spoon hot over a generous bed of steamed white rice.</p>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <p><a href="index.html">← Back to The Recipe Box</a></p>
+    </footer>
 </body>
 </html>
